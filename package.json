@@ -1,0 +1,41 @@
+{
+    "name": "qiya-cli-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "NODE_ENV=development nodemon ./bin/www",
+        "start": "NODE_ENV=production node ./bin/www",
+        "apidoc": "apidoc -i ./routes/ -o ./public/apidoc/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cookie-parser": "^1.4.4",
+        "debug": "^4.1.1",
+        "env2": "^2.2.2",
+        "express": "^4.16.4",
+        "express-validation": "^1.0.2",
+        "http-status": "^1.3.1",
+        "ioredis": "^4.6.2",
+        "joi": "^14.3.1",
+        "jsonwebtoken": "^8.5.1",
+        "mysql2": "^1.6.5",
+        "sequelize": "^5.1.0",
+        "sequelize-cli": "^5.4.0",
+        "uuid": "^3.3.2"
+    },
+    "apidoc": {
+        "name": "qiya-cli-express",
+        "version": "1.0.0",
+        "description": "qiya-cli-express项目API文档",
+        "title": "qiya-cli-express API",
+        "url": "http://localhost:4000",
+        "forceLanguage": "zh-cn"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    }
+}
