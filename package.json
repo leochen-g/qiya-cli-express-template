@@ -1,7 +1,7 @@
 {
-    "name": "qiya-cli-express",
+    "name": "{{project}}",
     "version": "1.0.0",
-    "description": "qiya-cli-express",
+    "description": "{{description}}",
     "main": "index.js",
     "scripts": {
         "dev": "NODE_ENV=development nodemon ./bin/www",
@@ -9,7 +9,7 @@
         "apidoc": "apidoc -i ./routes/ -o ./public/apidoc/",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Leo_chen",
+    "author": "{{author}}",
     "license": "ISC",
     "dependencies": {
         "body-parser": "^1.18.3",
