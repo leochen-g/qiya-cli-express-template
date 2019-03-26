@@ -28,10 +28,10 @@
         "uuid": "^3.3.2"
     },
     "apidoc": {
-        "name": "qiya-cli-express",
+        "name": "{{project}}",
         "version": "1.0.0",
-        "description": "qiya-cli-express项目API文档",
-        "title": "qiya-cli-express API",
+        "description": "{{project}}项目API文档",
+        "title": "{{project}} API",
         "url": "http://localhost:4000",
         "forceLanguage": "zh-cn"
     },
