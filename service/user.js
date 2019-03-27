@@ -1,6 +1,6 @@
 const models = require('../models')
 const APPError = require('../helper/AppError.js')
-const jwt = require('../until/token')
+const jwt = require('../untils/token')
 const uuid = require('uuid/v1')
 const timestamps = {
     updated_at: new Date(),
